@@ -1,0 +1,67 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c49968;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shirtGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#backgroundGradient)" rx="20"/>
+  
+  <!-- Professional Avatar -->
+  <g transform="translate(200, 200)">
+    <!-- Face -->
+    <ellipse cx="0" cy="-20" rx="80" ry="90" fill="url(#faceGradient)"/>
+    
+    <!-- Hair -->
+    <path d="M -75 -80 Q -85 -100 -70 -110 Q -40 -120 0 -115 Q 40 -120 70 -110 Q 85 -100 75 -80 Q 60 -90 30 -95 Q 0 -100 -30 -95 Q -60 -90 -75 -80 Z" fill="#2d1810"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-25" cy="-30" rx="8" ry="6" fill="white"/>
+    <ellipse cx="25" cy="-30" rx="8" ry="6" fill="white"/>
+    <circle cx="-25" cy="-30" r="4" fill="#2d1810"/>
+    <circle cx="25" cy="-30" r="4" fill="#2d1810"/>
+    <circle cx="-23" cy="-32" r="1.5" fill="white"/>
+    <circle cx="27" cy="-32" r="1.5" fill="white"/>
+    
+    <!-- Eyebrows -->
+    <path d="M -35 -40 Q -25 -45 -15 -40" stroke="#2d1810" stroke-width="3" fill="none"/>
+    <path d="M 15 -40 Q 25 -45 35 -40" stroke="#2d1810" stroke-width="3" fill="none"/>
+    
+    <!-- Nose -->
+    <path d="M 0 -15 L -3 0 L 0 3 L 3 0 Z" fill="#c49968"/>
+    
+    <!-- Mouth -->
+    <path d="M -15 15 Q 0 25 15 15" stroke="#8b4513" stroke-width="2" fill="none"/>
+    
+    <!-- Mustache -->
+    <path d="M -12 8 Q -6 12 0 10 Q 6 12 12 8" stroke="#2d1810" stroke-width="2" fill="none"/>
+    
+    <!-- Shirt -->
+    <path d="M -80 80 L -80 120 Q -80 140 -60 140 L 60 140 Q 80 140 80 120 L 80 80 Q 70 85 50 85 L -50 85 Q -70 85 -80 80 Z" fill="url(#shirtGradient)"/>
+    
+    <!-- Shirt collar -->
+    <path d="M -50 85 L -30 100 L 0 95 L 30 100 L 50 85" stroke="#1e3a8a" stroke-width="2" fill="none"/>
+    
+    <!-- Shirt stripes -->
+    <line x1="-50" y1="95" x2="50" y2="95" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="-50" y1="105" x2="50" y2="105" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="-50" y1="115" x2="50" y2="115" stroke="white" stroke-width="1" opacity="0.3"/>
+    <line x1="-50" y1="125" x2="50" y2="125" stroke="white" stroke-width="1" opacity="0.3"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="350" cy="50" r="30" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="50" cy="350" r="20" fill="rgba(255,255,255,0.1)"/>
+  <polygon points="320,320 340,340 360,320 340,300" fill="rgba(255,255,255,0.1)"/>
+</svg>
